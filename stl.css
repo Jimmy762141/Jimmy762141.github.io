@@ -1,0 +1,382 @@
+#ttlprin{
+	font-family: Rufina, serif;
+}
+#ttlprin {
+  animation: bounce 5s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+#bg1{
+	background-image: url("bg1.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+#pbg1{
+	background-color: rgb(0, 0, 0, 0.7);
+}
+#ttl1{
+	font-family: Rufina, serif;
+	font-weight: 700;
+	text-align: left;
+	font-size: 40px;
+
+}
+#btn1{
+	font-family: Rufina, serif;
+	font-weight: 500;
+	font-size: 25px;
+}
+#container-frase{
+	text-align: center;
+	font-family: Rufina, serif;
+	font-size: 30px;
+	font-weight: 600;
+	display: flex;
+}
+#cita{
+	font-size: 20px;
+	text-decoration: underline;
+}
+#cnt-crc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+#circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#bg2{
+	background-image: url("bg2.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+#prr-bg2{
+	text-align: left;
+	font-size: 20px;
+	display: inline-block;
+	width: 50%;
+}
+#ctncirculo2{
+	display: inline-block;
+  align-items: center;
+  justify-content: right;
+  height: 200px;
+
+}
+#btn2{
+	font-family: Rufina, serif;
+	font-weight: 500;
+	font-size: 25px;
+}
+#alcance{
+ text-align: right;
+}
+#foottext{
+	display: inline-block;
+}
+.fot{
+	height: 14vh;
+}
+*{
+	font-family: cambria;
+}
+#bgint{
+	background-image: url(intr.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#pbgint{
+	background-color: rgb(0, 0, 0,0.5);
+}
+#testo{
+	background-color: rgb(1000, 1000,1000,0.6);
+	text-align: left;
+	
+	border-radius: 10px;
+}
+h2{
+	text-shadow: 3px 2px 2px black;
+}
+.objt{
+	text-align: center;
+	text-shadow: 0px 1px 1px black;
+}
+#bgobj{
+	background-color: lightgray;
+}
+#bgobj{
+	background-color: rgb(0, 0, 0,0.2);
+}
+.fnd{
+	width: 100px;
+	background-image: url("fnd.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+td{
+text-align: center;
+font-size: 40px;
+}
+#ttth{
+	text-align: center;
+	font-size: 50px;
+}
+td a:visited{
+	color: 	white	;
+}
+td a:link{
+text-decoration: none;
+color:white;
+}
+td a:hover{
+	color: gray;
+	text-shadow: 1px 0px 12px floralwhite;}
+table{
+	background-color: black;
+	
+}
+.bgletra{
+	background-color: steelblue	;
+}
+.letra{
+	font-size: 	80px;
+	text-shadow: 2px 0px 5px floralwhite		;
+   
+	font-weight: bolder	;
+}
+.conttext{
+	background-color: rgb(1000,1000,1000,0.4);
+	border-radius: 20px;
+}
+.flecha{
+	text-align: right;
+
+}
+.objtespec{
+	text-align: center;
+}
+.materia{
+	font-size: 120%;
+
+	text-align: center;
+
+}
+.materias{
+	margin-left:10%;
+
+	
+	text-align: left;
+	border-radius: 20px;
+	background-color: rgb(0, 0, 0,0.6);
+	width:80%;
+}
+.morado:hover{
+	text-shadow: 1px 2px 20px  whitesmoke;
+	font-size: 20px;
+
+}
+.azul:hover{
+	text-shadow: 1px 2px  20px whitesmoke;
+	font-size: 20px;
+
+}
+.amarillo:hover{
+	text-shadow: 1px 2px  20px whitesmoke;
+	font-size: 20px;
+
+}
+.verde:hover{
+	text-shadow: 1px 2px   20px whitesmoke;
+	font-size: 20px;
+
+}
+.amarillo, .azul, .verde,.morado{
+	text-shadow: 1px 1px 3px black;
+}
+.amarillo{
+	color: yellow;
+
+}
+.verde{
+	color: greenyellow;
+}
+.morado{
+	color: rgb(250, 80, 180);
+}
+.azul{
+	color:skyblue;
+}
+.sms1 h1 span{
+	text-shadow: 1px 1px 4px blueviolet;
+	text-align: left;	
+	display: inline-block;
+  animation: slideIn 4s ease-in-out infinite alternate;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+.ssms{
+	margin-bottom: 30px;
+}
+.contsms{
+	background-image: url("sms.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.crsitem{
+	object-fit: fill;
+	height: 50vh;
+}
+.accordion-item{
+background-color: rgb(80,120,230);
+}
+.accordion-body{
+background-color: rgb(80,120,230,0.2);
+}
+.cdt{
+ text-align: center;
+}
+.cosaazul{
+	background-color: rgb(100, 20, 200,0.3);
+
+}
+.video-container {
+      position: relative;
+      padding-bottom: 35vh;
+      height: 0;
+     
+    }
+    
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+.materia a:link{
+text-decoration: none;
+}
+.txtmat{
+	text-align: center;
+}
+.contimg{
+	width: 40%;
+	box-shadow: rgb(0, 0, 0);
+}
+.fondmat{
+	background-color: rgb(100, 100, 220,0.5);
+}
+.titmatver{
+	text-shadow: 1px 1px 8px seagreen;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+	animation: mover 7s infinite;
+}
+.titmatmor{
+text-shadow: 1px 1px 8px mediumvioletred;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+	animation: mover 7s infinite;
+}
+.titmataz{
+text-shadow: 1px 1px 8px midnightblue;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+	animation: mover 7s infinite;
+}
+.titmatam{
+	text-shadow: 1px 1px 8px yellowgreen;
+	text-decoration: underline;
+	text-align: center;
+	position: relative;
+	animation: mover 7s infinite;
+	
+}
+@keyframes mover{
+	0%{
+		left: -10%;
+	}
+	25%{
+		left: 0;
+	}
+	50%{
+		left: 10%;
+	}
+	75%{
+		left: 0;
+	}
+	100%{
+		left: -10%;
+	}
+}
+.fondtxtmarc{
+	background-color: rgb(100, 250,250,0.5);
+	border-radius: 20px;
+	text-align: center;
+}
+#metod h2{
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 40px;
+	text-shadow: 1px 1px 10px floralwhite;
+}
+#estart h2{
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 40px;
+	text-shadow: 1px 1px 10px floralwhite;
+}
+#conclusiones h2{
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 40px;
+	text-shadow: 1px 1px 10px floralwhite;
+}
+.navbarfix{
+	position: fixed;
+	top: 0;
+
+	width: 100%;
+	z-index: 999;
+}
+.fondoconta{
+	background-color:rgb(51, 51, 51);
+	height: 50vh;
+}
+.quien{
+	text-align: center;
+}
